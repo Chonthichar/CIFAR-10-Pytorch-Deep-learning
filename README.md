@@ -25,6 +25,7 @@ Data Augmentation Techniques: Rotation, flipping, and zooming, applied to improv
 
 #### Performance Comparison
 The following plots show the comparison of training and test loss/accuracy for different optimizers used in the CNN model on CIFAR-10.
+<img src="Comparison_score.png" alt="Training and Test Loss/Accuracy Comparison" width="500"/>
 
 ###  Results
 - **SGD** with ReduceLROnPlateau achieved accuracies between 44.7% and 66.8%, showing improved but fluctuating test accuracy, which suggested some degree of overfitting.
