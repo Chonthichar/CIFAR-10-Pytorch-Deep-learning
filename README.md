@@ -20,20 +20,20 @@ The CNN model consists of the following layers:
 ### Training and Evaluation
 The model was trained over 30 epochs with the following components:
 
-#### Optimizers: SGD, Adam, and RMSProp
-- **Learning Rate Schedulers:** StepLR, ReduceLROnPlateau, and ExponentialLR
-- **Data Augmentation Techniques:** Rotation, flipping, and zooming, applied to improve generalization.
+- **Optimizers:** `SGD`, `Adam`, and `RMSProp`
+- **Learning Rate Schedulers:** `StepLR`, `ReduceLROnPlateau`, and `ExponentialLR`
+- **Data Augmentation Techniques:** `Rotation`, `flipping`, and  `zooming`, applied to improve generalization.
 
 #### Performance Comparison
 The following plots show the comparison of training and test loss/accuracy for different optimizers used in the CNN model on CIFAR-10.
 <img src="Comparison_score.png" alt="Training and Test Loss/Accuracy Comparison" width="500"/>
 
 ###  Results
-- **SGD** with ReduceLROnPlateau achieved accuracies between 44.7% and 66.8%, showing improved but fluctuating test accuracy, which suggested some degree of overfitting.
+- **SGD** with `ReduceLROnPlateau` achieved accuracies between 44.7% and 66.8%, showing improved but fluctuating test accuracy, which suggested some degree of overfitting.
 - **Adam** performed poorly, yielding only 9-10% accuracy, possibly due to suboptimal hyperparameters or data preprocessing issues.
 - **RMSProp** achieved the highest accuracy, but showed overfitting, with training accuracy around 90% and test accuracy around 70%, indicating that further regularization may be needed.
   
 ### Discussion and Conclusion
-- **Best Performance:** RMSProp with ReduceLR and ExponentialLR achieved the highest training accuracy but displayed significant overfitting.
-- **Future Directions:** A more complex architecture, such as ResNet or DenseNet, could better handle the CIFAR-10 dataset.
+- **Best Performance:** `RMSProp with ReduceLR` and `ExponentialLR` achieved the highest training accuracy but displayed significant overfitting.
+- **Future Directions:** A more complex architecture, such as `ResNet` or `DenseNet`, could better handle the CIFAR-10 dataset.
 - **Impact of Data Augmentation:** Data augmentation significantly improved model stability and performance, especially on CIFAR-10, highlighting its importance in training models on complex datasets.
