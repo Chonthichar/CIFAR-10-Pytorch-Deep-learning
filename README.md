@@ -38,3 +38,18 @@ The following plots show the comparison of training and test loss/accuracy for d
 - **Best Performance:** `RMSProp with ReduceLR` and `ExponentialLR` achieved the highest training accuracy but displayed significant overfitting.
 - **Future Directions:** A more complex architecture, such as `ResNet` or `DenseNet`, could better handle the CIFAR-10 dataset.
 - **Impact of Data Augmentation:** Data augmentation significantly improved model stability and performance, especially on CIFAR-10, highlighting its importance in training models on complex datasets.
+
+## Best Model for CIFAR-10 Image Classification
+
+Based on the analysis of various models for CIFAR-10 image classification, the **best-performing model** was found to be a **Convolutional Neural Network (CNN)** with the **RMSProp optimizer** and **ReduceLROnPlateau learning rate scheduler**. This setup achieved the highest training accuracy among the tested configurations. However, some **overfitting** was observed, indicating that this basic CNN model may not generalize well to unseen data. A more advanced architecture, such as **ResNet** or **DenseNet**, is recommended for improved accuracy and generalization on CIFAR-10.
+
+## Next Steps: User-Friendly Image Classification Application
+
+To make this model accessible to users, a user-friendly application could be developed with the following features:
+
+- **Image Upload Interface**: Allow users to upload images directly into the app.
+- **Model Prediction**: Use the trained CNN model to classify the uploaded image, identifying objects like “horse,” “airplane,” or “car.”
+- **Output Display**: Show the predicted class label and confidence score to the user.
+
+This approach makes the CIFAR-10 classifier more interactive and practical, enabling real-time image classification for end-users.
+
