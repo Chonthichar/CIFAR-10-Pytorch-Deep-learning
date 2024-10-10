@@ -47,7 +47,7 @@ Based on the analysis of various models for CIFAR-10 image classification, the *
 
 The image below shows correct predictions made by the CNN model on CIFAR-10 samples.
 
-![Sample Predictions - Correct Classifications](outcome.png)
+<img src="outcome.png" alt="Display 20 images in a grid with class names as titles" width="500"/>
 
 ## Next Steps: User-Friendly Image Classification Application
 
