@@ -4,7 +4,8 @@ The CIFAR-10 dataset was used to evaluate the performance of a Convolutional Neu
 
 ### CNN Architecture for CIFAR-10
 
-![Display 20 images in a grid with class names as titles](image_cifar.png)
+
+<img src="image_cifar.png" alt="Display 20 images in a grid with class names as titles" width="500"/>
 
 The CNN model consists of the following layers:
 
@@ -20,8 +21,8 @@ The CNN model consists of the following layers:
 The model was trained over 30 epochs with the following components:
 
 #### Optimizers: SGD, Adam, and RMSProp
-Learning Rate Schedulers: StepLR, ReduceLROnPlateau, and ExponentialLR
-Data Augmentation Techniques: Rotation, flipping, and zooming, applied to improve generalization.
+- **Learning Rate Schedulers:** StepLR, ReduceLROnPlateau, and ExponentialLR
+- **Data Augmentation Techniques:** Rotation, flipping, and zooming, applied to improve generalization.
 
 #### Performance Comparison
 The following plots show the comparison of training and test loss/accuracy for different optimizers used in the CNN model on CIFAR-10.
