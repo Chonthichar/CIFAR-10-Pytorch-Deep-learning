@@ -45,7 +45,7 @@ Based on the analysis of various models for CIFAR-10 image classification, the *
 
 ### Sample Predictions
 
-The image below shows correct predictions made by the CNN model on CIFAR-10 samples.
+The image below shows correct predictions made by the CNN model on randomly selected images from the CIFAR-10 dataset.
 
 <img src="outcome.png" alt="Display 20 images in a grid with class names as titles" width="500"/>
 
