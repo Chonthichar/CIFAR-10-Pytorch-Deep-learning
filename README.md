@@ -26,6 +26,7 @@ The model was trained over 30 epochs with the following components:
 
 #### Performance Comparison
 The following plots show the comparison of training and test loss/accuracy for different optimizers used in the CNN model on CIFAR-10.
+
 <img src="Comparison_score.png" alt="Training and Test Loss/Accuracy Comparison" width="500"/>
 
 ###  Results
