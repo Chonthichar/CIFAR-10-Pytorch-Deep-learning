@@ -43,6 +43,12 @@ The following plots show the comparison of training and test loss/accuracy for d
 
 Based on the analysis of various models for CIFAR-10 image classification, the **best-performing model** was found to be a **Convolutional Neural Network (CNN)** with the **RMSProp optimizer** and **ReduceLROnPlateau learning rate scheduler**. This setup achieved the highest training accuracy among the tested configurations. However, some **overfitting** was observed, indicating that this basic CNN model may not generalize well to unseen data. A more advanced architecture, such as **ResNet** or **DenseNet**, is recommended for improved accuracy and generalization on CIFAR-10.
 
+### Sample Predictions
+
+The image below shows correct predictions made by the CNN model on CIFAR-10 samples.
+
+![Sample Predictions - Correct Classifications](path/to/your/image.png)
+
 ## Next Steps: User-Friendly Image Classification Application
 
 To make this model accessible to users, a user-friendly application could be developed with the following features:
