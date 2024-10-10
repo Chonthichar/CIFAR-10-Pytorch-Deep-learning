@@ -1,6 +1,6 @@
 ## CNN with CIFAR-10 Dataset
 
-The CIFAR-10 dataset was used to evaluate the performance of a Convolutional Neural Network (CNN) on a complex, 10-class image classification task. Here are the main findings and architecture details.
+The CIFAR-10 dataset was used to evaluate the performance of a Convolutional Neural Network (CNN) on a complex, 10-class image classification task. Here are the main findings and architecture details:
 
 ### CNN Architecture for CIFAR-10
 
